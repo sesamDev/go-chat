@@ -1,0 +1,15 @@
+.root {
+  box-sizing: border-box;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#content-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+}
