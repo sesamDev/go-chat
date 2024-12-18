@@ -5,8 +5,6 @@ interface ContactCardProps {
   onClick: (e: React.MouseEvent<HTMLDivElement>) => void
 }
 export default function ContactCard({ onClick, name, avatar }: ContactCardProps) {
-
-
   return (
     <>
       <div className="flex space-x-6 hover:bg-stone-900 cursor-pointer" onClick={onClick}>
